@@ -1,0 +1,10 @@
+[package]
+name = "rt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sdl2 = { version = "0.36", features = ["bundled"] }
+rand = "0.8"
+glam = "0.25"
+num-complex = "0.4"
